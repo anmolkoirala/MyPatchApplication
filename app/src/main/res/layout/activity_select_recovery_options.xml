@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Common.LoginSignup.ForgetPassword"
+    android:transitionName="transition_forgotPsw">
+
+    <ImageView
+        android:id="@+id/choose_back_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/goback" />
+
+    <TextView
+        android:id="@+id/choose_method_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/muli_semibold"
+        android:text="@string/option_title"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/choose_method_descp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/muli_light_italic"
+        android:text="@string/option_descp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/choose_first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightWhite"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/mobile_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/cellphone" />
+
+        <TextView
+            android:id="@+id/mobile_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@id/mobile_icon"
+            android:fontFamily="@font/muli_light_italic"
+            android:text="@string/via_sms"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/mobile_descp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobile_title"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/mobile_icon"
+            android:fontFamily="@font/muli_light_italic"
+            android:text="@string/sample_contact"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/recovery_via_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:transitionName="transition_forgotPsw"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/choose_second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/lightWhite"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/email_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/viaemail" />
+
+        <TextView
+            android:id="@+id/email_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@id/email_icon"
+            android:fontFamily="@font/muli_light_italic"
+            android:text="@string/via_email"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/email_descp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_title"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/email_icon"
+            android:fontFamily="@font/muli_light_italic"
+            android:text="@string/sample_gmail"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/recovery_via_mail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:id="@+id/allcategories_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/pny_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/sample_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/patchappprofile" />
+
+        <TextView
+            android:id="@+id/pny_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/pny_image"
+            android:fontFamily="@font/baloo"
+            android:text="@string/sample_name"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pny_address"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pny_category"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/pny_image"
+            android:fontFamily="@font/baloo"
+            android:text="@string/sample_address"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pny_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pny_ratingbar"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/pny_image"
+            android:fontFamily="@font/baloo"
+            android:layout_marginTop="5dp"
+            android:text="@string/sample_category"
+            android:textSize="13sp" />
+
+        <RatingBar
+            android:id="@+id/pny_ratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="0.5"
+            android:layout_below="@id/pny_name"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/pny_image"
+            android:rating="4.5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pny_call"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/baloo"
+            android:text="@string/hire_call"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

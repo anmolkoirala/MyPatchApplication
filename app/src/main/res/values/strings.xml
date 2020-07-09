@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">Patch App</string>
+    <string name="loading">powered by anmol koirala</string>
+    <string name="logo_name">Patch App</string>
+    <string name="slogan_name">Home services at your fingertips</string>
+
+    <!-- onboarding screen titles-->
+    <string name="first_slide_title">Search for Services</string>
+    <string name="second_slide_title">Choose from many services</string>
+    <string name="third_slide_title">Hire</string>
+    <string name="fourth_slide_title">Sit back, Book and Pay</string>
+
+    <!-- onboarding screen titles-->
+    <string name="first_slide_desc">Find and set date for suitable repair service providers such as plumbers, mason, electrician etc.</string>
+    <string name="second_slide_desc">Choose from variety of services including cleaning, pest control, safety tank cleaning, furnishing etc </string>
+    <string name="third_slide_desc">Search for the needed services based on your location, category, professionals etc.</string>
+    <string name="fourth_slide_desc">Its easy as that. Book the service you need, sit back and pay them when the work is done.</string>
+
+    <!-- onboarding button text-->
+    <string name="button_skip">skip</string>
+    <string name="button_next">next</string>
+    <string name="button_getstarted">Get started</string>
+
+    <!-- Dashboard strings-->
+
+    <!-- Category strings-->
+    <string name="plumbing">Plumbers</string>
+    <string name="electrician">Electrician</string>
+    <string name="Cleaner">Cleaners</string>
+    <string name="painters">Painters</string>
+    <string name="movers">Movers</string>
+    <string name="roofers">Roofing</string>
+
+    <!-- dashboard titles-->
+    <string name="featured_handyman">all Featured professionals</string>
+    <string name="featured_handyman_descp">All the professionas that are featured have good rating, reputation and demand.</string>
+    <string name="user_reviews">Application Reviews</string>
+    <string name="user_location_view">Change your set location here</string>
+    <string name="Categories">Categories</string>
+    <string name="hired_work_topic">Your Hired Works</string>
+    <string name="hired_work_topic_descp">You have no professional hired at the moment. Please hire someone and revisit this page.</string>
+    <string name="edit_review_text">You can edit your reivew text here. The rating and price are not editable for this moment.</string>
+    <string name="your_location">Your Location</string>
+    <string name="your_location_desc">View, scroll and change your current location using provided map</string>
+    <string name="view_all">View all</string>
+    <string name="search_text">Search</string>
+    <string name="search_category">Search by Category</string>
+    <string name="search_list_Descp">Type the category you want to search and click on the search icon. \n search result will appear here.</string>
+
+    <!-- sample strings-->
+    <string name="sample_name">Hari Bahadur</string>
+    <string name="sample_response">Stat: Pending</string>
+    <string name="sample_respdate">Date: 4/7/2023</string>
+    <string name="sample_mail">Haribahadur@gmail.com</string>
+    <string name="sample_contact">+9779862676543</string>
+    <string name="sample_category">Cleaner</string>
+    <string name="sample_itemcategory">Category: Cleaners</string>
+    <string name="sample_gender">Female</string>
+    <string name="sample_gmail">support@gmail.com</string>
+    <string name="sample_descp">Working as skilled electrician for ten years. Handy with variety of works.</string>
+    <string name="sample_review_descp">I have hired three working services from this app and they were good.I got to pay after work was done so that was cool</string>
+    <string name="sample_address">rudra marg,Kalopul-Ratopul Rd, Kathmandu 44600, Nepal</string>
+    <string name="sample_profname">To: Hari Bahadur</string>
+    <string name="sample_issue">From few weeks, we have had a big rat issue. There are almost 10 of them.we need help to remove them</string>
+    <string name="sample_issue_short">Your Issue: From few weeks, we have had a big rat issue. Remove them</string>
+    <string name="all_issue_short">User Issue: From few weeks, we have had a big rat issue. Remove them</string>
+
+    <!-- Main Menu Strings-->
+    <string name="item_home">Home</string>
+    <string name="item_allcategories">All categories</string>
+    <string name="item_search">Search</string>
+
+    <string name="item_allprofessionals">All professionals</string>
+
+    <!-- Profile Strings-->
+    <string name="item_location">Your location</string>
+    <string name="item_profnearyou">Professional Near you</string>
+    <string name="item_profile">Profile</string>
+    <string name="item_work">Hired Works</string>
+    <string name="item_logout">Logout</string>
+
+    <!-- Reviews Strings-->
+    <string name="item_addreviews">Add reviews</string>
+    <string name="item_myreviews">My reviews</string>
+    <string name="item_allreviews">All reviews</string>
+
+    <!-- Reviews Strings-->
+    <string name="item_share">Share</string>
+    <string name="item_rateus">Rate Us</string>
+
+    <!-- categories page list string-->
+    <string name="expand_all">Expand all</string>
+    <string name="goback">Go Back</string>
+
+    <!-- Extrastrings-->
+    <string name="hire_us">Hire</string>
+    <string name="review_us">Review</string>
+    <string name="edit_review">Edit</string>
+    <string name="hire_call">Call</string>
+    <string name="category_numbers">10</string>
+
+    <!-- Service Provider panel screen -->
+    <string name="service_provider_heading">Promote yourself as Professional</string>
+    <string name="service_provider_tagline">We will help you grow your business using online services</string>
+    <string name="create_acc">Create Account</string>
+    <string name="how_we_work">How we work?</string>
+
+    <!-- Login screen -->
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="be_a_pro">Be a pro</string>
+
+    <!-- SignUp Screen -->
+    <string name="fullname">Fullname</string>
+    <string name="review">Your Review</string>
+    <string name="review_price">Charged Price</string>
+    <string name="username">Username</string>
+    <string name="prof_bio">Professional Bio</string>
+    <string name="prof_bio_counter">These will be used if you are featured as highly rated professional.</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="category">Category</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="choose_address">Choose Address</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_others">Others</string>
+    <string name="signup_pagenum">1 / 3</string>
+    <string name="dob_text">Select Date of Birth</string>
+
+
+    <!-- phonenumber Verification-->
+    <string name="phone_code_text">Code</string>
+    <string name="phone_verify">Verify Code</string>
+    <string name="phone_verification_code">Verification</string>
+    <string name="phone_descp_text">Enter the password sent on\n+977 9862753215</string>
+
+    <!-- forgot password-->
+    <string name="password_reset_title">Forget\nPassword</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_updated">Password\nUpdated</string>
+    <string name="password_updated_desc">Your password has been updates successfully</string>
+    <string name="change_password">Change Password</string>
+    <string name="password_reset_descp">Provide your registered account number inorder to reset your password.</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="option_title">Choose\nReset Method</string>
+    <string name="option_descp">Choose the method you want to use inorder to reset the password with.</string>
+    <string name="via_sms">via sms</string>
+    <string name="via_email">via email</string>
+    <string name="new_credientials">New\nCredentials</string>
+    <string name="new_credientials_descp">Your Identity has been verified! Set your new password here.</string>
+
+
+    <!--menu strings-->
+    <string name="menu_profile">Profile</string>
+    <string name="menu_findProf">Find</string>
+    <string name="menu_reviews">Reviews</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_system">System</string>
+    <string name="menu_mywork">My Works</string>
+    <string name="menu_myongoing_work">On going Work</string>
+    <string name="menu_requestlist">Request List</string>
+    <string name="menu_workhistory">Work History</string>
+    <string name="menu_yourCategories">Your Categories</string>
+
+    <string name="all_professiomals">All professionals</string>
+    <string name="all_users">All users</string>
+    <string name="review_professional">Rate A Professional</string>
+    <string name="review_app">Rate and Review Us</string>
+    <string name="review_app_descp">Thank you for taking your time out to rate us. It really helps us to grow and change with your support.</string>
+    <string name="work_request_descp">Your work requests are displayed here. Respond soon to secure the work and get to it.</string>
+    <string name="review_history">Your Reviews</string>
+    <string name="professional_nearyou_title">Professional Near You</string>
+    <string name="professional_nearyou_title_descp">In case of emergency, find the nearest professional here and contact immediately.</string>
+    <string name="hire_issue_descp">Description your issue</string>
+    <string name="hire_us_date">Your requested date</string>
+    <string name="hire_issue_additional">Additional info for prodessional</string>
+    <string name="hire_prof_descp">We will ask a few questions to help professionals understand your issue better.</string>
+    <string name="update_profile">update</string>
+    <string name="send_review">Send review</string>
+    <string name="submit_review">Submit review</string>
+    <string name="send_request">Send Request</string>
+    <string name="hire_us_name">Your Name</string>
+    <string name="hire_us_contact">Your Contact</string>
+    <string name="hire_us_address">Your Address</string>
+
+    <!-- main styles  -->
+    <style name="logo_name">Patch App</style>
+
+    <style name="slogan_name">We will help you find the right Service repairs!</style>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyD8uwIaSCILi18aEa_i4ryOE5MJQrIdvDA</string>
+
+    <!-- review string-->
+    <string name="user_login">User login</string>
+    <string name="rate_one">Sad to hear that</string>
+    <string name="rate_two">We always accept suggestion</string>
+    <string name="rate_three">Good enough</string>
+    <string name="rate_four">Looks Great.</string>
+    <string name="rate_five">WOW. Awesome. Thank you!</string>
+    <string name="hire_professional_header">Hire Professional</string>
+
+    <string name="requested_work">Requested Work</string>
+    <string name="professional_near_you">Professional Near You</string>
+    <string name="cancel">Cancel</string>
+    <string name="assign_review">Review</string>
+    <string name="remove">Remove</string>
+    <string name="yourreviews">Your Review</string>
+    <string name="updateyour_reviews">Update Review</string>
+    <string name="yourrating">Your Rating:</string>
+    <string name="chargedPP">Charged Rs: 12000</string>
+    <string name="userrating">User Rating:</string>
+    <string name="username_dummy">User Name: Hari Bahadur</string>
+    <string name="all_reviewed">You have reviewed all the professional you have hired. Visit again soon.</string>
+    <string name="hired_prof_reviews">These are the professionals you have hired but noy yet rated. Take time to rate them here.</string>
+    <string name="review_histroy_descp">These are the reviews you have Provided. You can view and edit them here.</string>
+    <string name="rate_usapp">Rate Us</string>
+    <string name="sample_date">20/05/2020</string>
+    <string name="prof_reviews_Desc">You can view the reviews sent to you by different users based the works you have done.</string>
+    <string name="professional_review_title">Your Reviews</string>
+    <string name="professional_history_title">Your work history</string>
+    <string name="work_history_descp">Your completed work will be displayed here. Track your work record from here,</string>
+    <string name="ongoing_worklist">Your On going work</string>
+    <string name="ongoing_title_descp">Your On-going worklist will be displayed here after you send your responses to the work requests.</string>
+    <string name="app_first_review">We will try to improve more</string>
+    <string name="app_second_review">Not good enough</string>
+    <string name="all_application_reviews">Application Reviews</string>
+
+</resources>

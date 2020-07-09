@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/lightWhite"
+android:padding="15dp"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize">
+
+    <ImageView
+        android:id="@+id/reiview_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:onClick="goBackDashboard"
+        android:src="@drawable/goback"
+        android:contentDescription="@string/goback" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/application_review_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/brandon_grotesque_black"
+        android:padding="10sp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/all_application_reviews"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycler_all_application_review"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

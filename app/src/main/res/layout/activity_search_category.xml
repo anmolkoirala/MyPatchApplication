@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/lightWhite"
+    android:padding="20dp"
+    tools:context=".Common.Search.SearchCategoryActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionName="transition_innerprofessional">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/prof_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:onClick="searchGoBack"
+            android:src="@drawable/goback"
+            android:contentDescription="@string/goback" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/seach_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/brandon_grotesque_black"
+        android:text="@string/search_category"
+        android:textSize="20sp"
+        android:textAllCaps="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:elevation="8dp">
+        <EditText
+            android:id="@+id/search_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:inputType="textCapSentences|textNoSuggestions"
+            android:hint="@string/search_text" />
+
+        <ImageButton
+            android:id="@+id/search_btn"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/search_icon"
+            android:padding="15dp"
+            android:background="@color/home_background"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/search_advise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="@string/search_list_Descp"/>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/result_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_open"
+            android:title="@string/item_home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon"
+            android:title="@string/item_search" />
+        <item
+            android:id="@+id/nav_allprofessionals"
+            android:icon="@drawable/allprofessionals"
+            android:title="@string/item_allprofessionals" />
+        <item
+            android:id="@+id/nav_allcategories"
+            android:icon="@drawable/allcategories"
+            android:title="@string/item_allcategories" />
+    </group>
+
+    <item android:title="@string/menu_findProf">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_professional_nearyou"
+                    android:icon="@drawable/find_location"
+                    android:title="@string/item_profnearyou" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_yourlocation"
+                    android:icon="@drawable/yourlocation"
+                    android:title="@string/item_location" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile"
+                    android:title="@string/item_profile" />
+                <item
+                    android:id="@+id/nav_works"
+                    android:icon="@drawable/work"
+                    android:title="@string/item_work" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_reviews">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_addreview"
+                    android:icon="@drawable/addreview"
+                    android:title="@string/item_addreviews" />
+                <item
+                    android:id="@+id/nav_myreview"
+                    android:icon="@drawable/myreivews"
+                    android:title="@string/item_myreviews" />
+                <item
+                    android:id="@+id/nav_allreview"
+                    android:icon="@drawable/allreviews"
+                    android:title="@string/item_allreviews" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/rate_usapp">
+        <menu>
+            <group android:checkableBehavior="none">
+<!--                <item-->
+<!--                    android:id="@+id/nav_share"-->
+<!--                    android:icon="@drawable/share"-->
+<!--                    android:title="@string/item_share" />-->
+                <item
+                    android:id="@+id/nav_rateus"
+                    android:icon="@drawable/rateus"
+                    android:title="@string/item_rateus" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_system">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="@string/item_logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

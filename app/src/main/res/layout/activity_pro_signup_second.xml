@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    android:padding="30dp"
+    tools:context=".Common.LoginSignup.ProSignupSecond">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/register_go_backtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/goback"
+        android:transitionName="transition_backarrow_btn" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/signup_titletwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/muli_semibold"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_centerVertical="true"
+            android:transitionName="transition_title_text"/>
+
+        <TextView
+            android:id="@+id/signup_pagenumtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:fontFamily="@font/muli_semibold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/signup_pagenum"
+            android:transitionName="transition_title_pagenum"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/spinner_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_category"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:elevation="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_background"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_gender"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/gender_group"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/gender_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_male"
+                android:checked="true"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/gender_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_female"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioButton
+                android:id="@+id/gender_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_others"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dob_text"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <DatePicker
+            android:id="@+id/dob_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:calendarTextColor="@color/colorPrimaryDark"
+            android:spinnersShown="true"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup_secnextbtntwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:text="@string/button_next"
+        android:textColor="@color/white"
+        android:onClick="nextSignupsecondScreen"
+        android:transitionName="transition_next_button" />
+
+    <Button
+        android:id="@+id/signup_loginbtntwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:elevation="5dp"
+        android:text="@string/sign_in"
+        android:onClick="loginScreenBack"
+        android:textColor="@color/colorPrimary"
+        android:transitionName="transition_login_button" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:id="@+id/allcategories_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/sample_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/patchappprofile" />
+
+        <TextView
+            android:id="@+id/tv_fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/search_image"
+            android:fontFamily="@font/baloo"
+            android:layout_marginTop="5dp"
+            android:text="@string/sample_name"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_number"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/search_image"
+            android:fontFamily="@font/baloo"
+            android:text="@string/sample_address"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_requested_date"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/search_image"
+            android:fontFamily="@font/baloo"
+            android:layout_marginTop="5dp"
+            android:text="+977123456789"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_requested_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_fullname"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/search_image"
+            android:text="@string/sample_date"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/baloo"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_issue_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_address"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/brandon_grotesque_light"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/sample_issue"
+            />
+
+        <TextView
+            android:id="@+id/tv_your_response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_issue_description"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/brandon_grotesque_light"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:text="@string/sample_issue_short"
+            />
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:fontFamily="@font/baloo"-->
+<!--            android:text="Done"-->
+<!--            android:visibility="invisible"-->
+<!--            />-->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

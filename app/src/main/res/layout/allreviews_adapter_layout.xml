@@ -1,0 +1,114 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10sp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/allreview_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/allreview_item_fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/sample_name"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/allreview_item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/allreview_item_fullname"
+            android:fontFamily="@font/baloo"
+            android:text="@string/sample_itemcategory"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/allreview_item_divider"
+            android:layout_below="@+id/allreview_item_userissue"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/allreview_item_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/allreview_item_divider"
+            android:fontFamily="@font/baloo"
+            android:text="@string/username_dummy"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/allreview_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/allreview_item_username"
+            android:fontFamily="@font/baloo"
+            android:text="@string/userrating"
+            android:layout_marginTop="3dp"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/allreview_item_userreivew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/allreview_item_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/sample_issue"
+            android:textSize="12sp" />
+
+        <RatingBar
+            android:id="@+id/allreview_item_userratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="1"
+            android:progressTint="@color/colorPrimary"
+            android:layout_below="@id/allreview_item_username"
+            android:layout_toEndOf="@+id/allreview_item_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_centerVertical="true"
+            android:rating="3" />
+
+        <TextView
+            android:id="@+id/allreview_item_userissue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/allreview_item_category"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/all_issue_short"
+            android:textSize="12sp" />
+
+        <RatingBar
+            android:id="@+id/allreview_item_profratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="1"
+            android:layout_alignParentEnd="true"
+            android:progressTint="@color/colorPrimary"
+            android:layout_marginStart="10dp"
+            android:rating="3" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
